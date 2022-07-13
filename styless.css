@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box 
+}
+
+    body {
+        margin: 0;
+      }
+
+      .cow{ width: 100%; height: 720px;  background-image: url(images/cow.jpg.jpg);
+    background-size:cover ;
+background-position: center;    
+position: relative;
+}
+
+.eid{ font-size: 25px;
+position:absolute;
+width: 500px;
+
+
+}
