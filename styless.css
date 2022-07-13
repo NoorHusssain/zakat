@@ -42,7 +42,7 @@ left: 50px;
 bottom: 200px; font-family: 'Montserrat', sans-serif;
 left: 50px;
 }
-a{ position: absolute;
+.first-button{ position: absolute;
 
 top: 500px;
 text-decoration: none; 
@@ -54,3 +54,78 @@ padding: 10px 15px;
 border-radius: 5px;
 
 }
+
+.second{ display: flex;} 
+
+
+.video{ position: absolute;
+left: 650px;
+bottom: -700px;
+}
+
+.buy{ width: 450px;
+ font-size: 2rem;
+ font-family: 'Poppins', sans-serif;
+ height: 4395px;
+ position: absolute;
+ left: 100px;
+ border-radius: 0px;
+ 
+}
+
+button { position: relative;  
+bottom: -900px;
+ left: 100px;
+padding: 20px 25px;
+background-color: #f2a65a;
+font-family: 'Bebas Neue', cursive;
+border: none;
+font-size: 25px;
+border-radius: 7px;
+color: white;
+box-shadow: 15px 5px 5px 5px grey;
+transition: 1s;
+cursor: pointer;
+}
+button:hover{ background: #772f1a;}
+
+
+
+.pray{ position: relative;
+
+bottom: -1100px;
+
+right: -80px;
+
+
+}
+.third{ display: flex;}
+
+.after-eid > h1{ position: relative;   
+
+top: -700px;
+right: -800px;
+font-size: 45px;
+width: 500px;
+font-family: 'Poppins', sans-serif;
+}
+.after-eid > p { position: relative;   
+
+    top: -700px;
+    right: -800px;
+    font-size: 25px;
+    width: 500px;
+   
+    }
+    .after-eid{
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        bottom: -1300px;
+    
+    }
+
+  
+    .third-button{ position: relative;
+    bottom: 300px;
+    left: 700px;
+    }
