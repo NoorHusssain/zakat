@@ -7,7 +7,7 @@
         padding: 0;
       }
 
-      .cow{
+      .cow{ 
 background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%), url(images/cow.jpg.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -19,8 +19,12 @@ background-position: center;
 }
 
 
-.eid{
-     top:  90px;}
+
+.eid{ position: absolute;
+left: 20px;
+  
+}
+
 
 .eid > h1 { font-size: 25px;
 
@@ -50,12 +54,14 @@ text-decoration: none;
 color: white;
 left: 50px;
 background-color: #772f1a;
-background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+font-family: 'Bebas Neue', cursive;
+font-size: 20px;
 padding: 10px 15px;
 border-radius: 5px;
-
+cursor: pointer; 
+transition: 0.1s;
 }
-
+a:hover { background-color: #f2a65a;}
 
 
 
@@ -65,7 +71,7 @@ border-radius: 5px;
  .text-video > .only-text > h2 { font-size: 50px;
 width: 400px;
 padding-left: 50px;
-font-family: 'Poppins', sans-serif;
+font-family: 'Bebas Neue', cursive;
 }
 .text-video > .only-text > p { width: 400px;
 padding-left: 50px;
@@ -113,6 +119,7 @@ justify-content: space-between;
 font-family: 'Poppins', sans-serif;  
 }
 
+.text > h1 { font-family: 'Bebas Neue', cursive;}
  .text{ width: 400px;
 font-size: 25px;
 position: relative;
@@ -257,13 +264,75 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+.last-title > h1{ font-family: 'Bebas Neue', cursive;}
 
-.ek-images{  box-shadow: 10px 11px 10px  gray;
-width: 20%;
-height: 50%;
-  margin-right: 10%;
-  margin-left: 10%;
+.last-image{ display: flex;
+}
+
+.donate-button > a{ text-decoration: none; 
+
+padding: 10px 10px 10px;
+text-align: center;
+color:  #f2a65a;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.1s;
+font-style: bold;
+font-weight: 700;
+}
+
+.Donut > h2{ padding-left: 10px;
+}
+
+
+.donate-button > a:hover{ background-color: #772f1a;}
+
+.donate-now > p{  padding-left: 10px;}
+
+
+.ek-images{  box-shadow: 20px 25px 35px  gray;
+width: 25%;
+height: 450px;
+  margin-right: 5%;
+  margin-left: 8%;
   padding-left:2px;
   padding-right:0px;
   border-radius:3px;
-  margin-bottom: 5%;}
+  margin-bottom: 10%;
+border: 1px solid lightgray;
+}
+.dui-images{  box-shadow: 20px 25px 35px  gray;
+  width: 25%;
+  height: 450px;
+    margin-right: 5%;
+    margin-left: 1%;
+    padding-left:2px;
+    padding-right:0px;
+    border-radius:3px;
+    margin-bottom: 10%;
+  border: 1px solid lightgray;
+
+  
+  }
+  .teen-images{  box-shadow: 20px 25px 35px  gray;
+    width: 25%;
+    height: 450px;
+      margin-right: 5%;
+      margin-left: 1%;
+      padding-left:2px;
+      padding-right:0px;
+      border-radius:3px;
+      margin-bottom: 10%;
+    border: 1px solid lightgray;}
+
+
+    .footer{
+    left: 0; bottom: 0;
+    width: 100%;
+    height: 20%;
+background-color: #f2a65a;
+color: white;
+text-align: center;
+font-family: 'Bebas Neue', cursive;
+font-size: 25px;
+}
